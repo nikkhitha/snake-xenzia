@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container{
+    width:500px;
+    height:500px;
+    margin:40px auto;
+}
+.score{
+    padding:20px 30px;
+    font-size:22px;
+    display:flex;
+    justify-content: space-between;
+    background-color: black;
+    color:white;
+}
+.game{
+    width:100%;
+    height:100%;
+    display:grid;
+    grid-template: repeat(30,1fr) / repeat(30,1fr);
+    background-color: yellow;
+}
+.head{
+    background-color: green;
+}
+.snakefood{
+    background-color: red;
+}
+.controls{
+    display:flex;
+    justify-content: space-between;
+    background-color: lightpink;
+}
+.controls i{
+    padding:22px 42px;
+   color:black;
+   width:calc(100%/4);
+   cursor:pointer;
+   font-size:1.8rem;
+}
+
